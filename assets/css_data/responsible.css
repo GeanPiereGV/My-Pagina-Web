@@ -1,0 +1,380 @@
+@media screen and (max-width: 1024px){
+    .menu__title{
+        color: rgb(144, 140, 140);
+        font-family: 'Rubik Pixels', cursive;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    
+    .experiencie__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;  
+    }
+    .cuadro1{
+        display: flex;
+        flex-direction: column;
+        border: solid;
+        width: 90%;
+        height: 580px;
+        border-style:outset;
+        border-radius: 25px;
+        font-size: 30px;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(73, 81, 81);
+    }
+    .cuadro2{
+        display: flex;
+        flex-direction: column;
+        border: solid;
+        width: 90%;
+        height: 580px;
+        border-style:outset;
+        border-radius: 25px;
+        font-size: 30px;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(73, 81, 81);
+    }
+    
+}
+@media screen and (max-width: 1024px){
+
+    /*menu de mi pagina header*/
+.menu__header{
+    background-color: rgb(35, 40, 40);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+.menu__total1{
+    width: auto;
+    text-align: center;
+    text-shadow: 2px 2px 2px #090909;
+}
+.menu__total2{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(167, 160, 160);
+    width: auto;
+    
+}
+.menu__title{
+    color: rgb(144, 140, 140);
+    font-family: 'Rubik Pixels', cursive;
+    margin-top: 5px;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #090909;
+}
+.menu__link1{
+   
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: rgb(144, 140, 140);
+    padding: 15px;
+    padding-top: px;
+    text-shadow: 2px 2px 2px #090909;
+    letter-spacing: 1px;
+}
+.menu__link2{
+    padding: 5px;
+    color: rgb(144, 140, 140);
+    font-family: 'Alkatra', cursive;
+    text-shadow: 2px 2px 2px #090909;
+
+
+    
+}
+
+
+
+
+    /*<!-- Sección del Header/Title/Hero -->*/
+    .title{
+        background-color: rgb(35, 40, 40);
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+        color: rgb(130, 117, 117);
+        text-shadow: 2px 2px 2px #090909;
+    }
+    .title__div{
+    
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        text-shadow: 2px 2px 2px #090909;
+    }
+    .title__profile {
+       
+        border-radius: 1000px;
+        
+    }
+    .title__container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    
+    }
+    
+    
+    
+    
+    /*  <!-- Sección de Skills and Hobbies -->   */
+    .skills{
+        background-color: rgb(35, 40, 40);
+        padding: 10px;
+        margin: 10px;
+        height: auto;
+        
+    }
+   
+    .skills__line{
+    
+        display: flex;
+        padding: 10px;
+        width: auto;
+        height: 50%;
+        flex-wrap:wrap;
+        justify-content:space-around;
+        
+        
+    }
+    .skills__box{
+    
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        border: solid;
+        width: 150px;
+        height: 150px;
+        border-style:outset;
+        border-radius: 25px;
+        font-size: 30px;
+        padding-top: 20px;
+        margin-top: 20px;
+        background-color: rgb(73, 81, 81);
+    }
+    .skills2{
+        background-color: rgb(35, 40, 40);
+        padding: 10px;
+        margin: 10px;
+        height: auto;
+        display: flex;
+       flex-direction: column;
+       
+        
+        
+    }
+    .skills__line2{
+    
+        display: flex;
+        padding: 10px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        
+        
+    }
+    .skills__box2{
+        
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        border: solid;
+        width: 150px;
+        height: 150px;
+        border-style:outset;
+        border-radius: 25px;
+        font-size: 30px;
+        padding-top: 20px;
+        margin-top: 20px;
+        background-color: rgb(73, 81, 81);
+    }
+
+
+   
+   /*<!-- Sección de Formación académica -->*/
+   
+    .academic{
+        background-color: rgb(35, 40, 40);
+        padding: 10px;
+        margin: 10px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .academia__linea1{
+        display: flex;
+        padding: 5px;
+        height: auto;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    .academic__courses__box{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        border: solid;
+        width: auto;
+        height: auto;
+        border-style:outset;
+        border-radius: 25px;
+        font-size: 30px;
+        padding-top: 10px;
+        margin-top: 10px;
+        background-color: rgb(73, 81, 81);
+    }
+
+
+
+/*<!-- Sección de Experiencia Profesional/Proyectos-->*/
+
+    .experiencie__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;  
+    }
+    .cuadro1{
+        display: flex;
+        flex-direction: column;
+        border: solid;
+        width: 90%;
+        height: auto;
+        border-style:outset;
+        border-radius: 25px;
+        font-size: 30px;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(73, 81, 81);
+    }
+    .cuadro2{
+        display: flex;
+        flex-direction: column;
+        border: solid;
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        border-style:outset;
+        border-radius: 25px;
+        font-size: 30px;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(73, 81, 81);
+    }
+    .experience__img{
+        width: 90%;
+        height: 470px;
+        border-radius: 20px;
+    }
+    .experience__subtitle2{
+        margin-top: 10px;
+        text-align:  center;
+        font-size: 15px;
+        letter-spacing: 2px;
+        line-height: 20px;
+        color: rgb(130, 117, 117);
+        font-family: 'Alkatra', cursive;
+        text-shadow: 2px 2px 2px #090909; 
+    }
+    .mini1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: solid;
+        width: auto;
+        height: 140px;
+        border-style:outset;
+        border-radius: 25px;
+        font-size: 20px;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(73, 81, 81);
+        text-shadow: 2.5px 2.5px 2.5px rgb(35, 40, 40);
+    }
+    .mini2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: solid;
+        width: auto;
+        height: 140px;
+        border-style:outset;
+        border-radius: 25px;
+        font-size: 20px;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(73, 81, 81); 
+        color: rgb(130, 117, 117);
+        text-shadow: 2.5px 2.5px 2.5px rgb(35, 40, 40);
+    }
+    .experience__description{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 3px;
+    }
+
+
+       /*<!-- Sección de Contacto -->*/
+       
+       
+       .formcontato__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: solid;
+        width: auto;
+        height: auto;
+        border-style:outset;
+        border-radius: 25px;
+        font-size: 18px;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(73, 81, 81); 
+    }
+    .posicion3{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .diseño_form{
+        display: flex;
+       flex-direction: column;
+       width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         w;
+        
+    }
+    .formcontato__input{
+        padding: 10px;
+        margin: 5px;
+        font-family: 'Alkatra', cursive;
+        text-shadow: 1px 1px 1px #090909;
+        width: auto ;
+    
+    }
+    .formcontato__textarea{
+        padding: 10px;
+        margin: 5px;
+        width: auto ;
+        font-family: 'Alkatra', cursive;
+        text-shadow: 1px 1px 1px #090909;
+    }
+
+    }
+ 
+

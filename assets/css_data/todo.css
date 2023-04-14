@@ -1,0 +1,587 @@
+body{
+background-color: black;
+}
+/*menu de mi pagina header*/
+.menu__header{
+    background-color: rgb(35, 40, 40);
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+}
+.menu__total1{
+    width: 40%;
+    text-align: center;
+    text-shadow: 2px 2px 2px #090909;
+}
+.menu__total2{
+    display: flex;
+    color: rgb(167, 160, 160);
+    width: 100%;
+    
+}
+.menu__title{
+    color: rgb(144, 140, 140);
+    font-family: 'Rubik Pixels', cursive;
+    margin-top: -5px;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #090909;
+}
+
+.menu__link1{
+   
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    color: rgb(144, 140, 140);
+    padding: 5px;
+    text-shadow: 2px 2px 2px #090909;
+    letter-spacing: 1px;
+}
+.menu__link2{
+    padding: 5px;
+    color: rgb(144, 140, 140);
+    font-family: 'Alkatra', cursive;
+    text-shadow: 2px 2px 2px #090909;
+
+
+    
+}
+
+/*<!-- Sección del Header/Title/Hero -->*/
+
+
+.title{
+    background-color: rgb(35, 40, 40);
+    display: flex;
+    height: 330px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(130, 117, 117);
+    text-shadow: 2px 2px 2px #090909;
+}
+.title__div{
+    display: flex;
+    padding: 20px;
+    text-shadow: 2px 2px 2px #090909;
+}
+.title__container{
+    display: flex;
+   
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+}
+.title__profile {
+    border-radius: 1000px;
+    
+}
+.title__bio{
+    
+    margin-top: -10px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Satisfy', cursive;
+    
+}
+
+.title__subsection{
+    
+    margin-top: -10px;
+    text-align: justify, center;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-family: 'Alkatra', cursive;
+    text-shadow: 2px 2px 2px #090909;
+}
+
+.title__network{
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+   
+    
+}
+.title__network__item{
+    background-color: black;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 2PX;
+    letter-spacing: 2px;
+    
+}
+
+.link{
+    color: rgb(130, 117, 117);
+    font-family: 'Alkatra', cursive;
+}
+
+
+/*<!-- Sección sobre mi --> */
+
+.about{
+    background-color: rgb(35, 40, 40);
+    padding: 10px;
+    margin: 10px; 
+    text-shadow: 2px 2px 2px #090909;   
+}
+.about__container{
+  
+    padding: 10px;
+    margin-top: -30px;
+    display: flex;  
+    justify-content: flex-end;
+    
+}
+.about__title{
+    
+    font-size: 30px;
+    font-family: 'Rubik Pixels', cursive;
+    color: rgb(130, 117, 117);
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-top: 25px;
+    text-shadow: 2px 2px 2px #090909;
+    
+    
+}
+.about__paragraph{
+    margin-top: -50px;
+    color: rgb(167, 160, 160);
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Alkatra', cursive;
+    text-justify: distribute-all-lines;
+    
+}
+
+
+    /*  <!-- Sección de Skills and Hobbies -->   */
+
+.skills{
+    background-color: rgb(35, 40, 40);
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    
+}
+.skills__title{
+    font-size: 30px;
+    font-family: 'Rubik Pixels', cursive;
+    color: rgb(130, 117, 117);
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 2px #090909;
+    
+}
+.skills__line{
+    
+    display: flex;
+    padding: 10px;
+    height: 100px;
+    justify-content:space-around;
+    
+    
+}
+.skills__box{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border: solid;
+    width: 150px;
+    height: 110px;
+    border-style:outset;
+    border-radius: 25px;
+    font-size: 30px;
+    padding-top: 40px;
+    margin-top: -40px;
+    background-color: rgb(73, 81, 81);
+}
+.skills__name{
+    margin-top: 15px;
+    font-family: 'Alkatra', cursive;
+    color: rgb(130, 117, 117);
+    text-shadow: 2px 2px 2px #090909;
+}
+
+/*hobbie*/
+.skills2{
+    background-color: rgb(35, 40, 40);
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    display: flex;
+   flex-direction: column;
+   
+    
+    
+}
+
+.skills__title2{
+    font-size: 30px;
+    font-family: 'Rubik Pixels', cursive;
+    color: rgb(130, 117, 117);
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 2px #090909;
+    
+    
+}
+.posicion2{
+    
+    display: flex;  
+    justify-content: flex-end;
+}
+.skills__line2{
+    
+    display: flex;
+    padding: 10px;
+    height: 100px;
+    justify-content:space-around;
+    
+    
+}
+.skills__box2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border: solid;
+    width: 150px;
+    height: 110px;
+    border-style:outset;
+    border-radius: 25px;
+    font-size: 30px;
+    padding-top: 40px;
+    margin-top: -40px;
+    background-color: rgb(73, 81, 81);
+}
+.skills__name2{
+    margin-top: 15px;
+    font-family: 'Alkatra', cursive;
+    color: rgb(130, 117, 117);
+    text-shadow: 2px 2px 2px #090909;
+}
+
+/*<!-- Sección de Formación académica -->*/
+.academic{
+    background-color: rgb(35, 40, 40);
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.academic__title1{
+    font-size: 30px;
+    font-family: 'Rubik Pixels', cursive;
+    color: rgb(130, 117, 117);
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 2px #090909;
+}
+.academia1{
+    display: flex;  
+    
+}
+.academia__linea1{
+    display: flex;
+    padding: 5px;
+    height: 150px;
+    justify-content:space-around;
+}
+.academic__courses__box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border: solid;
+    width: 350px;
+    height: 250px;
+    border-style:outset;
+    border-radius: 25px;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-top: -10px;
+    background-color: rgb(73, 81, 81);
+}
+.imgcss{
+    border-radius: 10px;
+}
+.academic__courses__item__title{
+    
+    font-family: 'Alkatra', cursive;
+    color: rgb(130, 117, 117);
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #090909;
+}
+.academic__courses__item__subtitle{
+   
+    font-family: 'Alkatra', cursive;
+    color: rgb(130, 117, 117);
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    text-shadow: 2px 2px 2px #090909;
+}
+
+
+/*<!-- Sección de Experiencia Profesional/Proyectos-->*/
+
+.experience{
+    background-color: rgb(35, 40, 40);
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.experience__section__title{
+    font-size: 30px;
+    font-family: 'Rubik Pixels', cursive;
+    color: rgb(130, 117, 117);
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 2px #090909;
+}
+.titulo2{
+    display: flex;
+    justify-content: flex-end;
+}
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+
+.experience__title1{
+    margin-top: 10px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    color: rgb(130, 117, 117);
+    text-shadow: 2px 2px 2px #090909;
+
+}
+.experience__img{
+    width: 600px;
+    height: 470px;
+    border-radius: 20px;
+}
+
+.cuadro1{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 50%;
+    height: 580px;
+    border-style:outset;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(73, 81, 81);
+}
+.prueba1{
+    display: flex;
+    justify-content: center;
+}
+.cuadro2{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 50%;
+    height: 580px;
+    border-style:outset;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(73, 81, 81);
+}
+
+.experience__title2{
+    margin-top: 10px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    color: rgb(130, 117, 117);
+    text-shadow: 2px 2px 2px #090909;
+
+}
+.experience__subtitle2{
+    margin-top: 10px;
+    text-align:  center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: rgb(130, 117, 117);
+    font-family: 'Alkatra', cursive;
+    text-shadow: 2px 2px 2px #090909; 
+}
+.experience__description{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3px;
+}
+.mini1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    width: auto;
+    height: 140px;
+    border-style:outset;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(73, 81, 81);
+    text-shadow: 2.5px 2.5px 2.5px rgb(35, 40, 40);
+}
+.experience__repo{
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+.prueba{
+    display: flex;
+    justify-content: center;
+}
+.imgcuadro{
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.mini2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    width: auto;
+    height: 140px;
+    border-style:outset;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(73, 81, 81); 
+    color: rgb(130, 117, 117);
+    text-shadow: 2.5px 2.5px 2.5px rgb(35, 40, 40);
+}
+
+
+
+
+/*<!-- Sección de Contacto -->*/
+
+.formcontato{
+    background-color: rgb(35, 40, 40);
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__title{
+    font-size: 30px;
+    font-family: 'Rubik Pixels', cursive;
+    color: rgb(130, 117, 117);
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 2px #090909;
+}
+.contacto1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.formcontato__subtext{
+    margin-top: -10px;
+    text-align: justify, center;
+    
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-family: 'Alkatra', cursive;
+    color: rgb(130, 117, 117);
+    text-shadow: 2px 2px 2px #090909;
+}
+.posicion3{
+    display: flex;
+    justify-content: center;
+}
+
+.diseño_form{
+    display: flex;
+   flex-direction: column;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             w;
+    
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    width: auto;
+    height: auto;
+    border-style:outset;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(73, 81, 81); 
+}
+.formcontato__input{
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Alkatra', cursive;
+    text-shadow: 2px 2px 2px #090909;
+
+}
+.formcontato__textarea{
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Alkatra', cursive;
+    text-shadow: 2px 2px 2px #090909;
+}
+
+.formcontato__botao{
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(130, 117, 117);
+    font-family: 'Alkatra', cursive;
+    text-shadow: 2.5px 2.5px 2.5px rgb(35, 40, 40);
+
+}
+
+
+
+
